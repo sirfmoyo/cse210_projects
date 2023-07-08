@@ -1,9 +1,16 @@
+﻿
+
 using System;
 
-class Program
+namespace EternalQuestProgram
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello Develop05 World!");
+        static void Main(string[] args)
+        {
+            // Create an instance of the EternalQuestApp and run it
+            EternalQuestApp app = new EternalQuestApp();
+            app.Run();
+        }
     }
 }
